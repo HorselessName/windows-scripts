@@ -1,3 +1,4 @@
+' Coloca HOSTNAME e IP na descrição do usuário no AD
 Set objSysInfo = CreateObject("ADSystemInfo")
 Set objUser = GetObject("LDAP://" & objSysInfo.UserName)
 Set objComputer = GetObject("LDAP://" & objSysInfo.ComputerName)

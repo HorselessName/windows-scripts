@@ -1,3 +1,4 @@
+# Checa se o PC apontado tem atualizações
 $dell = "dell-323"
 $updateInfoMsg = "Status do Windows Update: `n";
 $output += Invoke-Command -ComputerName $dell -ScriptBlock {
