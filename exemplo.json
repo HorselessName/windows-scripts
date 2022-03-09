@@ -1,0 +1,37 @@
+{ "Exemplos": [
+
+    {
+        "cars": {
+            "Nissan": [
+                {"model":"Sentra", "doors":4},
+                {"model":"Maxima", "doors":4},
+                {"model":"Skyline", "doors":2}
+            ],
+            "Ford": [
+                {"model":"Taurus", "doors":4},
+                {"model":"Escort", "doors":4}
+            ]
+        }
+    },
+    
+    {
+        "Linux Servers": [{}],
+        "Windows Servers": [{
+                "Name": "exampleServer1",
+                "DNSHostName": "exampleServer1.domain.com",
+                "IP": [{
+                    "IP1": "156656558789",
+                    "PORTA": "1"
+                }, {
+                    "IP2": "FFFFFFFFF",
+                    "PORTA": "2"
+                }]
+            },
+            {
+                "Name": "exampleServer2",
+                "DNSHostName": "exampleServer2.domain.com"
+            }
+        ]
+    
+    }]
+    }

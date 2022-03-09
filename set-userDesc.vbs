@@ -14,5 +14,3 @@ Next
 strMessage = objComputer.CN & " - " & strIPaddr
 objUser.Description = strMessage
 objUser.SetInfo
-
-Msgbox "Procedimento completo"
